@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Düzenleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Düzenleme.Designer.cs">
+      <DependentUpon>Düzenleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ekle.Designer.cs">
+      <DependentUpon>ekle.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +72,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Düzenleme.resx">
+      <DependentUpon>Düzenleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ekle.resx">
+      <DependentUpon>ekle.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -97,6 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\temizle.png" />
+    <None Include="Resources\kisi_ekle.png" />
+    <None Include="Resources\output.png" />
+    <None Include="Resources\output %281%29.png" />
+    <None Include="Resources\kisi_sorhu.jpg" />
+    <None Include="Resources\kişi_sorgu.png" />
+    <None Include="Resources\kişi_sorgu-Photoroom.png" />
     <Content Include="veri_tabani.mdb">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
